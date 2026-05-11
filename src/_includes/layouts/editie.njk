@@ -1,0 +1,101 @@
+---
+layout: layouts/base.njk
+---
+<div class="email">
+
+  <!-- MASTHEAD -->
+  <div class="masthead">
+    <div class="toprow">
+      <span class="left">{{ site.bedrijf }}</span>
+      <span>Editie {{ editie }} · {{ datum | maandJaar }}</span>
+    </div>
+    <h1 class="title">{{ site.naam }}</h1>
+    <div class="subtitle">{{ site.ondertitel }}</div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- INTRO -->
+    {% if intro %}
+    <div class="section">
+      <p class="intro">{{ intro | safe }}</p>
+    </div>
+    {% endif %}
+
+    <!-- RUBRIEK 1: Wat gebeurde er afgelopen maand? -->
+    {% if rubriek1 %}
+    <div class="section">
+      <h2>{{ rubriek1.titel }}</h2>
+      <div class="lead">{{ rubriek1.lead }}</div>
+      {% if rubriek1.items %}
+      <ul>
+        {% for item in rubriek1.items %}
+        <li>{{ item | safe }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if rubriek1.tekst %}{{ rubriek1.tekst | safe }}{% endif %}
+    </div>
+    {% endif %}
+
+    <!-- RUBRIEK 2: Onder de radar -->
+    {% if rubriek2 %}
+    <div class="section">
+      <h2>{{ rubriek2.titel }}</h2>
+      <div class="lead">{{ rubriek2.lead }}</div>
+      {% if rubriek2.tekst %}{{ rubriek2.tekst | safe }}{% endif %}
+    </div>
+    {% endif %}
+
+    <!-- DOSSIER VAN DE MAAND -->
+    {% if dossier %}
+    <div class="dossier">
+      <h2>{{ dossier.titel }}</h2>
+      <div class="lead">{{ dossier.lead }}</div>
+      {% if dossier.intro %}{{ dossier.intro | safe }}{% endif %}
+      {% if dossier.pullquote %}
+      <div class="pullquote">{{ dossier.pullquote }}</div>
+      {% endif %}
+      {% if dossier.outro %}{{ dossier.outro | safe }}{% endif %}
+    </div>
+    {% endif %}
+
+    <!-- RUBRIEK 4: Op de agenda -->
+    {% if rubriek4 %}
+    <div class="section after-dossier">
+      <h2>{{ rubriek4.titel }}</h2>
+      <div class="lead">{{ rubriek4.lead }}</div>
+      {% if rubriek4.items %}
+      <ul>
+        {% for item in rubriek4.items %}
+        <li>{{ item | safe }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if rubriek4.tekst %}{{ rubriek4.tekst | safe }}{% endif %}
+    </div>
+    {% endif %}
+
+    <!-- PS -->
+    {% if ps %}
+    <div class="ps">
+      <strong>P.S.</strong> {{ ps | safe }}
+    </div>
+    {% endif %}
+
+    <!-- AFSLUITING -->
+    <div class="signoff">
+      Tot volgende maand,<br>
+      <span class="name">{{ site.afzender }}</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="name">{{ site.bedrijf }}</div>
+    Nijmegen · <a href="https://{{ site.website }}">{{ site.website }}</a><br>
+    <a href="{{ site.url }}">Alle edities</a>
+  </div>
+
+</div>

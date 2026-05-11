@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/editie.njk",
+  "tags": ["editie"],
+  "permalink": "/{{ page.fileSlug }}/index.html"
+}

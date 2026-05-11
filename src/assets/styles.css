@@ -1,0 +1,259 @@
+/* ============================================
+   Stadhuisbericht — vormgeving
+   Palette uit lokale-lobby.nl
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root {
+  --navy: #0C1830;
+  --gold: #B37A18;
+  --gold-light: #E0BE84;
+  --creme: #F9F7F4;
+  --creme-dark: #EEEBE6;
+  --grijs: #676E7E;
+  --tekst: #151B27;
+  --border: #E4E1DB;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 24px 12px;
+  background: #e8e6e0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  color: var(--tekst);
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ===== EMAIL / ARTIKEL CANVAS ===== */
+.email {
+  background: var(--creme);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  font-size: 15px;
+}
+
+/* ===== MASTHEAD ===== */
+.masthead {
+  background: var(--creme);
+  padding: 32px 32px 20px;
+  border-bottom: 4px solid var(--navy);
+}
+.toprow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 11px;
+  color: var(--grijs);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.toprow .left {
+  color: var(--gold);
+  font-weight: 600;
+}
+.title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 38px;
+  color: var(--navy);
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 13px;
+  color: var(--grijs);
+  font-style: italic;
+  margin-top: 6px;
+}
+
+/* ===== BODY ===== */
+.body { padding: 28px 32px 8px; }
+
+.intro {
+  font-size: 15px;
+  color: var(--tekst);
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* ===== SECTION (witte rubrieken) ===== */
+.section {
+  padding: 28px 0;
+  border-top: 1px solid var(--border);
+}
+.section:first-of-type { border-top: none; }
+.section h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 20px;
+  color: var(--navy);
+  margin: 0 0 6px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.section .lead {
+  font-size: 11px;
+  color: var(--grijs);
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+}
+.section p { margin: 0 0 12px; font-size: 14.5px; }
+.section ul { margin: 0; padding-left: 18px; font-size: 14.5px; }
+.section li { margin-bottom: 10px; }
+
+/* ===== DOSSIER VAN DE MAAND (donkerblauw blok) ===== */
+.dossier {
+  background: var(--navy);
+  margin: 32px -32px 0;
+  padding: 36px 32px 32px;
+  color: var(--creme);
+}
+.dossier h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 22px;
+  color: var(--creme);
+  margin: 0 0 6px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.dossier .lead {
+  font-size: 11px;
+  color: var(--gold-light);
+  margin: 0 0 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+.dossier p {
+  margin: 0 0 12px;
+  font-size: 14.5px;
+  color: var(--border);
+}
+.dossier .pullquote {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  color: var(--creme);
+  font-size: 18px;
+  border-left: 4px solid var(--gold);
+  padding: 6px 0 6px 18px;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+/* Rubriek na het dossier */
+.section.after-dossier {
+  border-top: none;
+  padding-top: 28px;
+}
+
+/* ===== PS-BLOK ===== */
+.ps {
+  background: var(--creme-dark);
+  border-left: 3px solid var(--gold);
+  padding: 16px 20px;
+  margin: 24px 0 0;
+  font-size: 14px;
+  color: var(--tekst);
+  line-height: 1.6;
+}
+.ps strong { color: var(--navy); }
+
+/* ===== AFSLUITING ===== */
+.signoff {
+  margin: 28px 0 8px;
+  font-size: 14.5px;
+  color: var(--tekst);
+}
+.signoff .name {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  color: var(--navy);
+  font-size: 16px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: var(--navy);
+  color: var(--creme);
+  padding: 24px 32px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.footer a { color: var(--gold-light); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+.footer .name {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 16px;
+  color: var(--creme);
+  margin-bottom: 8px;
+}
+
+/* ===== INDEX PAGINA ===== */
+.index-wrap {
+  padding: 40px 32px;
+  background: var(--creme);
+}
+.index-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 42px;
+  color: var(--navy);
+  margin: 0 0 8px;
+  font-weight: 700;
+  line-height: 1;
+}
+.index-subtitle {
+  color: var(--grijs);
+  font-style: italic;
+  margin-bottom: 32px;
+}
+.editie-card {
+  display: block;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--tekst);
+}
+.editie-card:last-child { border-bottom: 1px solid var(--border); }
+.editie-card .editie-meta {
+  font-size: 11px;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.editie-card h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 22px;
+  color: var(--navy);
+  margin: 0 0 6px;
+  font-weight: 700;
+}
+.editie-card .editie-preheader {
+  font-size: 14px;
+  color: var(--grijs);
+}
+.editie-card:hover h2 { color: var(--gold); }
+
+/* ===== MOBIEL ===== */
+@media (max-width: 640px) {
+  body { padding: 12px 6px; }
+  .body { padding: 20px 20px 8px; }
+  .masthead, .index-wrap { padding: 20px; }
+  .title { font-size: 28px; }
+  .index-title { font-size: 30px; }
+  .dossier { margin: 24px -20px 0; padding: 28px 20px 24px; }
+  .footer { padding: 20px; }
+}

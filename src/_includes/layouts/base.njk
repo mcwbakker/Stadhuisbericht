@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if titel %}{{ titel }} | {% endif %}{{ site.naam }}</title>
+  <meta name="description" content="{{ preheader or site.beschrijving }}">
+
+  <!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if titel %}{{ titel }} | {% endif %}{{ site.naam }}">
+  <meta property="og:description" content="{{ preheader or site.beschrijving }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/og-default.png">
+  <meta property="og:site_name" content="{{ site.bedrijf }}">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if titel %}{{ titel }} | {% endif %}{{ site.naam }}">
+  <meta name="twitter:description" content="{{ preheader or site.beschrijving }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/og-default.png">
+
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    {{ content | safe }}
+  </div>
+</body>
+</html>

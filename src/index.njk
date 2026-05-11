@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+titel: "Stadhuisbericht"
+preheader: "Maandelijkse nieuwsbrief van Lokale Lobby"
+---
+<div class="email">
+  <div class="index-wrap">
+    <h1 class="index-title">{{ site.naam }}</h1>
+    <p class="index-subtitle">{{ site.ondertitel }}</p>
+
+    <p style="margin-bottom: 24px;">{{ site.beschrijving }}</p>
+
+    {% for editie in collections.edities %}
+    <a href="{{ editie.url }}" class="editie-card">
+      <div class="editie-meta">Editie {{ editie.data.editie }} · {{ editie.data.datum | maandJaar }}</div>
+      <h2>{{ editie.data.titel }}</h2>
+      <div class="editie-preheader">{{ editie.data.preheader }}</div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="footer">
+    <div class="name">{{ site.bedrijf }}</div>
+    Nijmegen · <a href="https://{{ site.website }}">{{ site.website }}</a>
+  </div>
+</div>
