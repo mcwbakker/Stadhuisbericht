@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
 
   // Kopieer assets (CSS, eventueel images) naar de output
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   // Datum-filters voor in templates
   eleventyConfig.addFilter("nlDatum", function(date) {
