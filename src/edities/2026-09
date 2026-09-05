@@ -1,0 +1,35 @@
+---
+layout: layouts/editie.njk
+titel: 'September 2026'
+editie: 5
+datum: 2026-09-02
+preheader: 'Het reces is voorbij en het college pakt door. Over een stroomnet dat wordt verdeeld, ruimte die woningbouw opeist, en waarom de eerste besluiten na de zomer uw dossier raken.'
+intro: 'Op 25 augustus en 1 september nam het college de eerste besluiten na het zomerreces. Uit die twee vergaderingen komt één rode draad naar boven die ondernemers direct raakt. De stad wil vooral bouwen, en die woningbouw gaat ergens ten koste van. U merkt dat op drie plekken: bij uw stroomaansluiting, op uw eigen locatie en in de regels die bepalen wat waar mag. In deze editie leest u wat er speelde, welk technisch besluit onder de radar bleef en waar u nog invloed op heeft. De besluiten zijn gevolgd via <a href=''https://www.beleidssignaal.nl'' target=''_blank'' rel=''noopener''>Beleidssignaal</a>, een handige tool waarmee u zelf ook beleid kunt volgen.'
+rubriek1:
+  titel: 'Wat gebeurde er afgelopen maand?'
+  lead: 'De belangrijkste besluiten sinds de vorige editie, in het kort.'
+  items:
+    - 'Het college steunde twee organisaties die dicht bij het bedrijfsleven staan: Startup Nijmegen, dat starters en jonge bedrijven op weg helpt, en Lifeport, dat de regionale economie en het ondernemersklimaat versterkt. De stad blijft dus investeren in ondernemers, ook nu er weinig geld is.'
+    - 'Het warmtenet in Dukenburg, de collectieve verwarming die het aardgas moet vervangen, zette een volgende stap. Voor bedrijven in Dukenburg komt een aansluiting daarmee dichterbij, met kansen maar ook met keuzes over kosten en timing die u beter op tijd maakt.'
+    - 'Nijmegen stelt zich officieel kandidaat als Culturele Hoofdstad van Europa in 2033. Dat lijkt ver weg, maar het betekent jaren van evenementen, bezoekers en bestedingen, een kans voor horeca, evenementen, creatieve bedrijven en toerisme om nu al aan te haken.'
+    - 'De regio legde vast hoe zij omgaat met vergunningen, toezicht en handhaving. Kort gezegd bepaalt dat hoe streng u straks wordt beoordeeld als u iets aanvraagt of aan regels moet voldoen.'
+rubriek2:
+  titel: 'Onder de radar'
+  lead: 'Een technisch besluit over een stroomnet dat vol zit, met directe gevolgen voor wie wil uitbreiden of verduurzamen.'
+  tekst: '<p>Het net rond Nijmegen kan niet iedereen tegelijk aansluiten. Wie voorrang krijgt, wordt daarom verdeeld op basis van maatschappelijk belang. Nieuw is dat gemeenten vanaf 1 oktober 2026 alvast ruimte op het net mogen vastleggen voor woningbouw, nog voordat de bouwers definitief in beeld zijn. Met dit besluit legt Nijmegen vast hoe het dat gaat doen. En het gaat snel, want de aanmelding loopt tot 14 september, rond 22 september komt de voorlopige lijst en tot 30 september kunt u nog reageren.</p><p>Let op het belangrijkste punt. Deze voorrang geldt alleen voor woningbouw, niet voor bedrijven. Terwijl woningen een snelle route naar het stroomnet krijgen, blijft u gewoon in de rij staan. Wilt u uitbreiden, verduurzamen of een zwaardere aansluiting, dan vist u straks achter het net. Wie hierover pas nadenkt zodra de aansluiting nodig is, is jaren te laat. Wilt u weten wat dit voor uw plannen betekent? Neem contact op via post@lokale-lobby.nl.</p>'
+dossier:
+  titel: 'Het dossier van de maand'
+  lead: 'Woningbouw en de ruimte voor uw bedrijf. In beide vergaderingen was hetzelfde patroon zichtbaar. De stad wil groeien in woningen, en die ruimte moet ergens vandaan komen.'
+  intro: '<p>De grote lijn staat in een nieuwe nota over het toekomstige omgevingsplan. De achtergrond is de Omgevingswet, die voorschrijft dat de gemeente vóór 2032 alle losse regels voor bouwen en gebruik samenvoegt in één plan voor de hele stad. In deze nota staan zestien uitgangspunten die bepalen hoe dat plan eruit gaat zien. Een paar daarvan raken u direct. De gemeente wil meer zaken rechtstreeks in het plan regelen en minder via losse uitzonderingsvergunningen, en rekening houden met wat u nu mag en met wat u nu feitelijk doet op uw locatie. Dat laatste is het belangrijkste. Staat uw huidige gebruik goed op papier, dan telt het mee. Staat het er niet, dan bestaat het risico dat een nieuwe regel langs uw situatie heen wordt geschreven.</p><p>Hoe dat in de praktijk werkt, was op 1 september al te zien. Het college nam verschillende kleine besluiten waarbij bestaande ruimte plaatsmaakt voor woningen, van losse herontwikkelingen tot nieuwe regels voor kamerverhuur en extra woningen in de binnenstad. Op zichzelf klein, maar samen wijzen ze dezelfde kant op.</p>'
+  pullquote: 'Waar nu een bedrijf, een garage of een werkplaats zit, kan over een paar jaar een woningbouwplan liggen.'
+  outro: '<p>De echte keuzes vallen niet in één keer, maar stap voor stap, per gebied, in twee ronden per jaar. Rond maart en september kunt u telkens meepraten, ongeveer een half jaar voordat een wijziging definitief wordt. Dat is het moment waarop meepraten nog verschil maakt. Is een regel eenmaal vastgesteld, dan is bijsturen veel moeilijker en veel duurder.</p><p>Heeft u een pand, een locatie of uitbreidingsplannen? Laat nu controleren of uw belang goed in beeld is, voordat uw gebied aan de beurt komt. Neem contact op via post@lokale-lobby.nl.</p>'
+rubriek4:
+  titel: 'Op de agenda'
+  lead: 'Het najaar draait om geld en om ruimte. Wie in het najaar iets wil bereiken, bereidt dat nu voor. Wilt u ergens meedenken of uw belang laten meewegen? Neem contact op via post@lokale-lobby.nl.'
+  items:
+    - '<strong>Najaar, Stadsbegroting 2027.</strong> De begroting komt binnenkort naar de raad en maakt zichtbaar waar het college wel en niet in investeert. Dit is het belangrijkste moment van het jaar om nieuw geld of nieuw beleid los te krijgen. Breng uw belang in voordat de raad de begroting bespreekt, niet erna.'
+    - '<strong>Tot 30 september, voorrang op het stroomnet.</strong> De inspraaktermijn voor de prioritering van transportcapaciteit loopt tot 30 september. Volg dit als u afhankelijk bent van een nieuwe of zwaardere aansluiting.'
+    - '<strong>Binnenkort, omgevingsplan naar de raad.</strong> De nota met uitgangspunten voor het omgevingsplan gaat naar de gemeenteraad. Die bepaalt het kader voor wat de komende jaren waar mag.'
+    - '<strong>Doorlopend, Culturele Hoofdstad 2033.</strong> De kandidatuur krijgt een vervolg. Bedrijven in horeca, evenementen, cultuur en toerisme kunnen zich nu al positioneren.'
+ps: 'Het patroon van deze weken is steeds hetzelfde. Besluiten die technisch en ver weg lijken, bepalen in de praktijk uw ruimte, uw stroom en uw vergunning. Het verschil zit in de timing. Wie er vroeg bij is, kan meepraten. Wie wacht, mag alleen nog reageren op wat anderen al hebben beslist.'
+---
